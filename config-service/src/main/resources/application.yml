@@ -1,12 +1,19 @@
 spring:
   cloud:
     config:
+
+#        usage of a git repository
       server:
-        import: "optional:configserver:"
-        native:
-          search-locations: classpath:/services
-  profiles:
-    active: native
+        git:
+          uri: https://github.com/SergeyPodgorny/YML-Coinfigurations-storage
+          skipSslValidation: true
+#        usage of a local folder
+#     server:
+#        native:
+#          search-locations: classpath:/services
+#   setting up profiels, for now it is default
+#  profiles:
+#    active: native
   security:
     user:
       password: admin
