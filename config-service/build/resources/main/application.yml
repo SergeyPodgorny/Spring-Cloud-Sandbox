@@ -11,6 +11,7 @@ spring:
 #     server:
 #        native:
 #          search-locations: classpath:/services
+#   setting up profiels, for now it is default
 #  profiles:
 #    active: native
   security:
