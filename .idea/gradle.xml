@@ -14,20 +14,20 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/bill-service" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/bill-service" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/config-service" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/config-service" />
             <option value="$PROJECT_DIR$/config-service/registry-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/notification-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/notification-service" />
           </set>
         </option>
       </GradleProjectSettings>
