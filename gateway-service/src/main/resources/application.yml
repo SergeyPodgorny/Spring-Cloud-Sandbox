@@ -1,4 +1,6 @@
-#spring:
+spring:
+   application:
+      name: restaurant-gateway-service
 #  profiles:
 #    active: dev
 spring:
@@ -6,9 +8,9 @@ spring:
     gateway:
       routes:
       - id: default_route
-        uri: http://localhost:8080/games/default
+        uri: https://cloud.spring.io/spring-cloud-gateway
         predicates:
-        - Path=/games/
+        - Path=/cloud/
 
 
 
